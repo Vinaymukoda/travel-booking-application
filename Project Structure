@@ -1,0 +1,35 @@
+travelbooker/
+├─ manage.py
+├─ requirements.txt
+├─ README.md
+├─ .env.example
+├─ .gitignore
+├─ travelbooker/                # Project settings
+│  ├─ __init__.py
+│  ├─ settings.py
+│  ├─ urls.py
+│  ├─ wsgi.py
+│  └─ asgi.py
+└─ bookings/                    # Main app
+   ├─ __init__.py
+   ├─ admin.py
+   ├─ apps.py
+   ├─ forms.py
+   ├─ models.py
+   ├─ tests.py
+   ├─ urls.py
+   ├─ views.py
+   ├─ templates/
+   │  ├─ base.html
+   │  ├─ components/
+   │  │  └─ messages.html
+   │  ├─ registration/
+   │  │  ├─ login.html
+   │  │  └─ signup.html
+   │  ├─ profile.html
+   │  ├─ travel_option_list.html
+   │  ├─ booking_form.html
+   │  └─ booking_list.html
+   └─ static/
+      └─ css/
+         └─ styles.css
